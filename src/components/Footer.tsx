@@ -6,7 +6,7 @@ const Footer = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm uppercase tracking-[4px] font-playfair font-semibold opacity-80">
-            Alex Rivers
+            Clement Ibeneche
           </div>
           
           <div className="flex gap-8 text-sm uppercase tracking-wider opacity-60">

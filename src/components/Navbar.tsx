@@ -50,7 +50,7 @@ const Navbar = () => {
             href="/"
             className="text-base md:text-lg uppercase tracking-[4px] font-playfair font-semibold"
           >
-            Alex Rivers
+            Clement Ibeneche
           </a>
 
           {/* Right Nav Links - Desktop */}

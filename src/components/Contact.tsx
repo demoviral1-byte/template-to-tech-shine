@@ -41,7 +41,7 @@ const Contact = () => {
             <Twitter className="w-6 h-6" />
           </a>
           <a
-            href="mailto:alex@example.com"
+            href="mailto:clement@example.com"
             className="w-14 h-14 flex items-center justify-center border-2 border-white rounded-full hover:bg-white hover:text-black transition-all duration-300"
           >
             <Mail className="w-6 h-6" />
@@ -51,7 +51,7 @@ const Contact = () => {
         {/* Email CTA */}
         <div>
           <a
-            href="mailto:alex@example.com"
+            href="mailto:clement@example.com"
             className="inline-block bg-white text-black px-12 py-5 rounded-xl uppercase text-sm font-bold tracking-wider hover:bg-opacity-90 hover:scale-105 transition-all duration-300"
           >
             Send Message

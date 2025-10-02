@@ -23,11 +23,15 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-6">
         <h1
-          className={`hero-text text-white transition-all duration-1000 ${
+          className={`hero-text transition-all duration-1000 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
+          style={{
+            color: 'white',
+            mixBlendMode: 'difference',
+          }}
         >
-          ALEX RIVERS
+          CLEMENT IBENECHE
         </h1>
       </div>
 
