@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import Companies from "@/components/Companies";
 import CTACard from "@/components/CTACard";
 import About from "@/components/About";
-import ImageMarquee from "@/components/ImageMarquee";
 import Journey from "@/components/Journey";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
@@ -18,7 +17,6 @@ const Index = () => {
         <Companies />
         <CTACard />
         <About />
-        <ImageMarquee />
         <Journey />
         <Projects />
         <Contact />
