@@ -9,10 +9,10 @@ interface JourneyCardProps {
 
 const JourneyCard = ({ title, description, images }: JourneyCardProps) => {
   return (
-    <div className="mb-32 group">
-      <div className="max-w-[90vw] mx-auto">
+    <div className="mb-20 group">
+      <div className="max-w-[85vw] mx-auto">
         <div 
-          className="relative rounded-2xl overflow-hidden p-8 md:p-16"
+          className="relative rounded-2xl overflow-hidden p-6 md:p-12"
           style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E")`,
             backgroundColor: 'rgba(255, 255, 255, 0.03)',
@@ -21,7 +21,7 @@ const JourneyCard = ({ title, description, images }: JourneyCardProps) => {
         >
           <div className="relative cursor-pointer">
             {/* Images Wrapper */}
-            <div className="relative h-[400px] md:h-[500px] mb-12">
+            <div className="relative h-[280px] md:h-[350px] mb-8">
               <div
                 className="absolute left-[5%] top-0 w-[45%] h-full rounded-2xl overflow-hidden transform -rotate-[4deg] transition-transform duration-500 group-hover:rotate-[-2deg]"
                 style={{ transformOrigin: "center" }}
@@ -45,10 +45,10 @@ const JourneyCard = ({ title, description, images }: JourneyCardProps) => {
             </div>
 
             {/* Content */}
-            <div className="mt-12">
-              <h3 className="text-3xl md:text-5xl font-medium mb-6 font-playfair">{title}</h3>
+            <div className="mt-8">
+              <h3 className="text-2xl md:text-4xl font-medium mb-4 font-playfair">{title}</h3>
               <div className="max-w-2xl">
-                <p className="text-base md:text-lg opacity-80 leading-relaxed px-6 py-4">
+                <p className="text-sm md:text-base opacity-80 leading-relaxed px-6 py-3">
                   {description}
                 </p>
               </div>
@@ -85,7 +85,7 @@ const Journey = () => {
         <div className="h-px w-[80%] bg-white/20" />
       </div>
 
-      <h2 className="section-title text-center mb-32">Professional Journey</h2>
+      <h2 className="section-title text-center mb-20">Professional Journey</h2>
 
       {journeySteps.map((step, index) => (
         <JourneyCard key={index} {...step} />
