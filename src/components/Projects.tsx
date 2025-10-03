@@ -16,28 +16,28 @@ const Projects = () => {
 
   const projects: Project[] = [
     {
-      title: "CloudScale Platform",
-      description: "Built a distributed cloud infrastructure platform handling 10M+ requests daily. Implemented auto-scaling, load balancing, and real-time monitoring. Reduced infrastructure costs by 40% while improving system reliability to 99.99% uptime.",
+      title: "Phindiso Investments",
+      description: "Professional investment company website with modern design and responsive layout. Built to showcase services and attract potential clients using contemporary web technologies and user-centric design principles.",
       image: working1,
-      tags: ["AWS", "Kubernetes", "Go"],
+      tags: ["HTML", "CSS", "JavaScript", "WordPress"],
     },
     {
-      title: "AI Analytics Engine",
-      description: "Developed a machine learning-powered analytics platform for enterprise clients. Features include predictive modeling, real-time data processing, and custom visualization dashboards. Successfully deployed across 50+ organizations.",
+      title: "Viral Klick",
+      description: "Dynamic platform for digital marketing services featuring interactive UI and seamless user experience. Designed for managing marketing campaigns with intuitive navigation and modern aesthetics.",
       image: working2,
-      tags: ["Python", "TensorFlow", "React"],
+      tags: ["JavaScript", "CSS", "WordPress"],
     },
     {
-      title: "DevOps Automation Suite",
-      description: "Created comprehensive DevOps toolkit that automated deployment pipelines, testing, and monitoring for development teams. Reduced deployment time from hours to minutes and eliminated 90% of manual processes.",
+      title: "Kampus Kribs",
+      description: "Student housing platform connecting students with accommodation options near University of the Western Cape. Features include advanced search functionality, filtering options, and an intuitive booking system.",
       image: presenting,
-      tags: ["Docker", "Jenkins", "Terraform"],
+      tags: ["HTML", "CSS", "JavaScript", "SQL"],
     },
     {
-      title: "Open Source Framework",
-      description: "Launched a popular open-source framework for building modern web applications. Over 15,000 GitHub stars, used by companies worldwide. Active community with regular updates and comprehensive documentation.",
+      title: "Help Desk System",
+      description: "Comprehensive ticket management system for handling support queries. Built with Oracle Apex featuring robust user authentication, efficient ticket tracking, detailed reporting, and admin dashboard functionality.",
       image: teamCollab,
-      tags: ["TypeScript", "Node.js", "WebGL"],
+      tags: ["Oracle Apex", "SQL", "PL/SQL"],
     },
   ];
 

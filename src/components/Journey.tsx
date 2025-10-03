@@ -63,18 +63,18 @@ const JourneyCard = ({ title, description, images }: JourneyCardProps) => {
 const Journey = () => {
   const journeySteps = [
     {
-      title: "Early Career",
-      description: "Started coding at 14, building websites and applications. By 16, I was freelancing for local businesses, learning the fundamentals of software development and client management. This early start gave me a decade-plus head start in understanding both technical and business aspects of technology.",
+      title: "Academic Foundation",
+      description: "Currently pursuing a Bachelor of Commerce in Information Systems at the University of the Western Cape (Expected completion: November 2025). Completed Information Technology courses from Grade 10 to Grade 12 at Jeppe High School for Boys, building a strong foundation in programming and system design.",
       images: [working1, working2],
     },
     {
-      title: "Tech Leadership",
-      description: "Led engineering teams at Fortune 500 companies and high-growth startups. Architected scalable systems serving millions of users, implemented CI/CD pipelines, and established engineering best practices. Mentored junior developers and fostered a culture of innovation and continuous learning.",
+      title: "Teaching & Mentorship",
+      description: "Served as a tutor for Introduction to Business Information Systems (IFS 140) at UWC in 2024, helping fellow students grasp complex concepts. Organized and ran a SQL Boot Camp in January 2024, empowering peers with database management skills. Also worked as a Football Coach for Chris Hani residence, developing leadership and team management abilities.",
       images: [working2, working1],
     },
     {
-      title: "Open Source Contribution",
-      description: "Active contributor to major open-source projects with over 10,000+ GitHub stars combined. Built developer tools used by thousands of engineers worldwide. Strong advocate for knowledge sharing through technical blogs, conference talks, and community mentorship programs.",
+      title: "Real-World Projects",
+      description: "Built and deployed multiple live websites including Phindiso Investments, Viral Klick, Kampus Kribs, and Written Wall Enterprises. Developed personal projects such as to-do list applications, help desk ticket query systems, and portfolio websites. Proficient in HTML, CSS, JavaScript, Python, SQL, WordPress, and Oracle Apex.",
       images: [working1, working2],
     },
   ];
