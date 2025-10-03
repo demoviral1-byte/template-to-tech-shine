@@ -1,8 +1,8 @@
 import { useState } from "react";
-import working1 from "@/assets/working-1.jpg";
-import working2 from "@/assets/working-2.jpg";
-import presenting from "@/assets/presenting.jpg";
-import teamCollab from "@/assets/team-collab.jpg";
+import investmentWebsite from "@/assets/investment-website.jpg";
+import digitalMarketing from "@/assets/digital-marketing.jpg";
+import studentHousing from "@/assets/student-housing.jpg";
+import helpdeskSystem from "@/assets/helpdesk-system.jpg";
 
 interface Project {
   title: string;
@@ -18,25 +18,25 @@ const Projects = () => {
     {
       title: "Phindiso Investments",
       description: "Professional investment company website with modern design and responsive layout. Built to showcase services and attract potential clients using contemporary web technologies and user-centric design principles.",
-      image: working1,
+      image: investmentWebsite,
       tags: ["HTML", "CSS", "JavaScript", "WordPress"],
     },
     {
       title: "Viral Klick",
       description: "Dynamic platform for digital marketing services featuring interactive UI and seamless user experience. Designed for managing marketing campaigns with intuitive navigation and modern aesthetics.",
-      image: working2,
+      image: digitalMarketing,
       tags: ["JavaScript", "CSS", "WordPress"],
     },
     {
       title: "Kampus Kribs",
       description: "Student housing platform connecting students with accommodation options near University of the Western Cape. Features include advanced search functionality, filtering options, and an intuitive booking system.",
-      image: presenting,
+      image: studentHousing,
       tags: ["HTML", "CSS", "JavaScript", "SQL"],
     },
     {
       title: "Help Desk System",
       description: "Comprehensive ticket management system for handling support queries. Built with Oracle Apex featuring robust user authentication, efficient ticket tracking, detailed reporting, and admin dashboard functionality.",
-      image: teamCollab,
+      image: helpdeskSystem,
       tags: ["Oracle Apex", "SQL", "PL/SQL"],
     },
   ];
