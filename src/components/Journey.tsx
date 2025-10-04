@@ -1,6 +1,9 @@
 import academicStudy from "@/assets/academic-study.jpg";
+import itCoursework from "@/assets/it-coursework.jpg";
 import teachingMentorship from "@/assets/teaching-mentorship.jpg";
+import sqlBootcamp from "@/assets/sql-bootcamp.jpg";
 import webDevelopment from "@/assets/web-development.jpg";
+import codingProjects from "@/assets/coding-projects.jpg";
 
 interface JourneyCardProps {
   title: string;
@@ -66,17 +69,17 @@ const Journey = () => {
     {
       title: "Academic Foundation",
       description: "Currently pursuing a Bachelor of Commerce in Information Systems at the University of the Western Cape (Expected completion: November 2025). Completed Information Technology courses from Grade 10 to Grade 12 at Jeppe High School for Boys, building a strong foundation in programming and system design.",
-      images: [academicStudy, teachingMentorship],
+      images: [academicStudy, itCoursework],
     },
     {
       title: "Teaching & Mentorship",
       description: "Served as a tutor for Introduction to Business Information Systems (IFS 140) at UWC in 2024, helping fellow students grasp complex concepts. Organized and ran a SQL Boot Camp in January 2024, empowering peers with database management skills. Also worked as a Football Coach for Chris Hani residence, developing leadership and team management abilities.",
-      images: [teachingMentorship, webDevelopment],
+      images: [teachingMentorship, sqlBootcamp],
     },
     {
       title: "Real-World Projects",
       description: "Built and deployed multiple live websites including Phindiso Investments, Viral Klick, Kampus Kribs, and Written Wall Enterprises. Developed personal projects such as to-do list applications, help desk ticket query systems, and portfolio websites. Proficient in HTML, CSS, JavaScript, Python, SQL, WordPress, and Oracle Apex.",
-      images: [webDevelopment, academicStudy],
+      images: [webDevelopment, codingProjects],
     },
   ];
 
